@@ -33,3 +33,9 @@ function removeElementFromBeginningOfArray(array) {
   var nouveau = array.slice(1)
   return nouveau
 }
+
+function destructivelyRemoveElementFromEndOfArray (array){
+  array.pop()
+  return array
+}
+
